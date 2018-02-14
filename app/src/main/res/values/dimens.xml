@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="stub_image_size">160dp</dimen>
+    <dimen name="stub_text_size">18dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="medium_text_size">18dp</dimen>
+    <dimen name="big_text_size">20dp</dimen>
+    <dimen name="large_text_size">28dp</dimen>
+</resources>

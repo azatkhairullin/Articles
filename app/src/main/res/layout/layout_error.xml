@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/errorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/stub_image_size"
+        android:layout_height="@dimen/stub_image_size"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_error"
+        android:tint="@color/stub_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/default_padding"
+        android:gravity="center"
+        android:text="@string/connection_problems"
+        android:textColor="@color/stub_color"
+        android:textSize="@dimen/stub_text_size" />
+
+
+
+</LinearLayout>
